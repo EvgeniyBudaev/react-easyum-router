@@ -1,8 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Image alt](https://github.com/EvgeniyBudaev/react-easyum-router/raw/master/public/images/readme1.jpg)
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+### `npm install react-router-dom`
+
+### `npm install node-sass`
 
 ### `npm start`
 

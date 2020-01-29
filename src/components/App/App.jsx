@@ -4,7 +4,7 @@ import { withRouter, Route, Switch } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../../containers/Home";
 import About from "../../containers/About";
-// import NotFound from '../../containers/NotFound';
+import NotFound from "../../containers/NotFound";
 import { ROUTES } from "../../util/routes";
 
 class App extends Component {
@@ -18,6 +18,9 @@ class App extends Component {
             </Route>
             <Route exact path={ROUTES.ABOUT}>
               <About></About>
+            </Route>
+            <Route>
+              <NotFound />
             </Route>
           </Switch>
         </MainLayout>

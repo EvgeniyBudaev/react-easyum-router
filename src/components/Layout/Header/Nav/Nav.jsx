@@ -11,7 +11,7 @@ const Nav = props => {
       <NavLink
         to={ROUTES.HOME}
         exact
-        activeClassName={classes}
+        activeClassName={classes.active}
         className={classes.link}
       >
         HOME
@@ -19,7 +19,7 @@ const Nav = props => {
       <NavLink
         to={ROUTES.ABOUT}
         exact
-        activeClassName={classes}
+        activeClassName={classes.active}
         className={classes.link}
       >
         ABOUT
